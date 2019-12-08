@@ -1,0 +1,24 @@
+{
+	"name": "venkatma/custom-framework",
+    "description": "A small php service bootstrapped without using any framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Venkatesh Mallina",
+            "email": "venkatesh.mallina83@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.4",
+        "symfony/routing": "^4.4",
+		"symfony/dependency-injection": "^4.4",
+		"symfony/event-dispatcher": "^4.4",
+		"symfony/http-kernel": "^4.4",
+		"ramsey/uuid": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "CustomApp\\": "src/"
+        }
+    }
+}
